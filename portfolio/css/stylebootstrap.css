@@ -1,0 +1,46 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css";
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container .col-lg-12 {
+  display: inline-block;
+  height: 200px;
+  background-color: #e5e5e5;
+}
+
+.container .col-lg-3 {
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.container .col-lg-3 div {
+  height: 120px;
+  background-color: #0f245d;
+}
+
+.container .col-md-4 {
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.container .col-md-4 div {
+  height: 120px;
+  background-color: #0f245d;
+}

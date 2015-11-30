@@ -1,0 +1,67 @@
+// Variables
+$color-principal : #0f245d;
+$color-secundario: #242529;
+// Breakpoints
+$mobile : "(max-width: 300px) and (min-width: 100px)";
+$tablet : "(max-width: 500px) and (min-width: 300px)";
+@import' /*direccion*/ ';
+
+@mixin position($ancho){
+	width: $ancho;
+	display: inline-block;
+	vertical-align: top;
+}
+
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica", sans-serif;
+}
+header{
+	background-color: $color-principal;
+	color: #FFF;
+	padding: 20px;
+	h1{
+		font-size: 16px;
+		margin: 0px;
+	}
+}
+section{
+	@include position(70%);
+}
+aside{
+	@include position(29%);
+	background-color: $color-principal;
+	padding: 20px;
+	border: 2px solid #0f245d;
+	border-radius: 2px;
+	form{
+		label{
+			color: #FFF;
+			font-weight: 400;
+			}
+		input{
+			padding: 30px;
+			&[type="text"]{
+				padding: 15px;
+				color:#FFF;
+				background-color:#000; 
+				border-radius: 2px;
+				}
+			&[type="submit"]{
+				font-size: 16px;
+				padding: 10px;
+				color:#FFF;
+				background-color: #color-secundario;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 300px){
+	background-color: red;
+}

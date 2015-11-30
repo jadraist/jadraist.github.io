@@ -1,0 +1,35 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css";
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.row table th {
+  text-align: center;
+}
+
+.row table thead {
+  background-color: green;
+  color: #FFF;
+}
+
+.row .roja table thead {
+  background-color: red;
+}
+
+.row .roja table thead .claro {
+  background-color: #FA8072;
+}
